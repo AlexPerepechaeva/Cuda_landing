@@ -16,6 +16,9 @@ header {
   height: 596px;
   background-color: #87509c;
 }
+hr {
+  margin: 20px auto;
+}
 .headen {
 position: absolute;
 white-space: nowrap;
@@ -103,4 +106,47 @@ text-align: center;
 }
 .mainbutton:active {
   background-color: #D77346;
+}
+.services {
+  background-color: #17c2a4;
+  height: 796px;
+}
+.header {
+  font-size: 40px;
+}
+.white {
+  color: white;
+}
+.services_div {
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  max-width: 500px;
+  }
+.usualtext {
+  font-size: 18px;
+}
+.usualtext16 {
+  font-size: 16px;
+}
+.services_ul {
+  display: inline-block;
+  margin: 80px;
+}
+.servicelist {
+  float: left;
+  color: #fff;
+  max-width: 200px;
+  text-align: center;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.services_div2 {
+  width: 1300px;
+  margin: auto;
+}
+.serv_h3 {
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
