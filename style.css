@@ -49,8 +49,8 @@ clip-path: inset(50%);
   display: inline-block;
   color: white;
   text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
   margin-top: 70px;
   margin-left: 40px;
   text-transform: uppercase;
@@ -60,6 +60,8 @@ clip-path: inset(50%);
 .nav_li:hover {
 background-color: #643a79;
 border-radius: 5%;
+cursor: pointer;
+transition: 0.5s linear;
 }
 .home {
   background-color: #643a79;
@@ -88,7 +90,7 @@ border-radius: 5%;
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: 400;
   padding-top: 10px;
 }
 .mainbutton {
@@ -102,6 +104,8 @@ text-align: center;
 }
 .mainbutton:hover {
   background-color:#EF966E;
+  cursor: pointer;
+  transition: 0.5s linear;
 }
 .mainbutton:active {
   background-color: #D77346;
@@ -114,6 +118,8 @@ text-align: center;
   font-size: 40px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 700;
+  letter-spacing: 4px;
 }
 .white {
   color: white;
@@ -126,14 +132,16 @@ text-align: center;
   }
 .usualtext {
   font-size: 18px;
+  font-weight: 400;
 }
 .usualtext16 {
   font-size: 16px;
+  font-weight: 400;
 }
 .services_ul {
   display: inline-block;
   margin-top: 80px;
-  margin-left: 205px;
+  margin-left: 190px;
 }
 .servicelist {
   float: left;
@@ -149,6 +157,7 @@ text-align: center;
   text-transform: uppercase;
   margin-top: 50px;
   margin-bottom: 30px;
+  letter-spacing: 0.48px;
 }
 .team {
   height: 900px;
@@ -174,6 +183,7 @@ text-align: center;
 .teamname {
   text-transform: uppercase;
   margin-top: 40px;
+  letter-spacing: 0.48px;
 }
 .position {
   color: #30bae7;
@@ -187,4 +197,122 @@ text-align: center;
 .socialnet_li {
   float: left;
   margin-right: 10px;
+}
+.skills {
+  height: 600px;
+}
+.skills_div {
+margin-top: 100px;
+text-align: center;
+}
+.skillname {
+  font-size: 24px;
+  text-align: center;
+  color: #3c4761;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.skills_ul {
+  display: inline-block;
+  margin: auto;
+  margin-left: 50px;
+}
+.skillperc {
+  float: left;
+  margin: 100px;
+}
+.perc_div {
+position	: relative;
+width: 100%;
+}
+.percent_p {
+  position: absolute;
+  left: 25%;
+  bottom: 30%;
+  font-weight: 300;
+  font-size: 50px
+}
+.portfolio {
+  background-color: #ffdd99;
+  height: 1500px;
+  color: #393939;
+  text-align: center;
+}
+.portfolio_div {
+  padding-top: 120px;
+  text-align: center;
+  margin: auto;
+}
+.radios {
+  display: inline-block;
+}
+.radioli {
+  float: left;
+  margin-right: 10px;
+}
+.radiobut {
+  border:none;
+  width: 90px;
+  height: 38px;
+  margin-top: 40px;
+  border-radius: 5%;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #393939;
+  background-color: rgba(0, 0, 0, 0.07);
+}
+.radiobut_1 {
+  background-color: #fff;
+}
+.radiobut:hover {
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+.projects {
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+.projectli {
+  float: left;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  border-radius: 5%;
+  padding: 20px;
+}
+.project_a {
+  color: #393939;
+  text-transform: uppercase;
+  text-align: center;
+}
+.projectli:hover {
+  background-color: #e4c688;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+.projbutton {
+  border: none;
+  font-family: "Titillium Web", Arial, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  width: 200px;
+  height: 50px;
+  background-color: #17c2a4;
+  border-radius: 3%;
+  box-shadow: 0 -4px 0 inset rgba(0, 0, 0, 0.15);
+  text-align: center;
+  outline: 0;
+  margin-top: 40px;
+}
+.projbutton:hover {
+  background-color: #3cd6bc ;
+  cursor: pointer;
+  transition: 0.5s linear;
+  outline: 0;
 }
