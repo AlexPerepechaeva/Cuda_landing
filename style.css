@@ -18,6 +18,9 @@ header {
 hr {
   margin: 20px auto;
 }
+blockquote {
+  font-style: italic;
+}
 .headen {
 position: absolute;
 white-space: nowrap;
@@ -315,4 +318,37 @@ width: 100%;
   cursor: pointer;
   transition: 0.5s linear;
   outline: 0;
+}
+.aboutus {
+  height: 1000px;
+  background-color: #d74680;
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+}
+.feedback {
+  display: inline-block;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+.feedbackli {
+  float: left;
+  max-width: 500px;
+  text-align: left;
+  margin-right: 120px;
+  margin-bottom: 150px
+}
+.imgright {
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.feedname {
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.feedbposition {
+  color: #ffdd99;
+font-size: 18px;
 }
