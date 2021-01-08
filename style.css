@@ -320,7 +320,7 @@ width: 100%;
   outline: 0;
 }
 .aboutus {
-  height: 1000px;
+  height: 900px;
   background-color: #d74680;
   text-align: center;
   padding-top: 100px;
@@ -329,7 +329,7 @@ width: 100%;
 .feedback {
   display: inline-block;
   margin-left: 200px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 .feedbackli {
   float: left;
@@ -351,4 +351,91 @@ width: 100%;
 .feedbposition {
   color: #ffdd99;
 font-size: 18px;
+}
+.feedb {
+  background-color: #3c5499;
+  height: 750px;
+  padding-top: 100px;
+  text-align: center;
+}
+.formname {
+  margin-top: 75px;
+  width: 405px;
+  height: 50px;
+  margin-right: 30px;
+  border: 0px;
+  color: #fff;
+  background-color: #273a71;
+  font-family: "Titillium Web", Arial, sans-serif;
+  vertical-align: middle;
+  padding-left: 15px;
+}
+.formemail {
+  margin-top: 75px;
+  width: 405px;
+  height: 50px;
+  border: 0px;
+  background-color: #273a71;
+  font-family: "Titillium Web", Arial, sans-serif;
+  vertical-align: middle;
+  padding-left: 15px;
+  color: #fff;
+}
+.formmessage {
+  width: 860px;
+  height: 200px;
+  margin-top: 30px;
+  border: 0px;
+  background-color: #273a71;
+  font-family: "Titillium Web", Arial, sans-serif;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-top: 15px;
+  color: #fff;
+}
+.sendbut {
+  border: none;
+  font-family: "Titillium Web", Arial, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  width: 200px;
+  height: 50px;
+  background-color: #30bae7;
+  border-radius: 3%;
+  box-shadow: 0 -4px 0 inset rgba(0, 0, 0, 0.15);
+  text-align: center;
+  outline: 0;
+  margin-top: 40px;
+}
+.sendbut:hover {
+  background-color: #74D7F7 ;
+  cursor: pointer;
+  transition: 0.5s linear;
+  outline: 0;
+}
+::placeholder {
+  color: #fff;
+}
+input:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+textarea:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    outline: none;
+}
+a:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+.soc_a:focus {
+  box-shadow: 0 0 10px rgba(60, 84, 153, 0.5);
+  outline: none;
+}
+button:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  outline: none;
 }
