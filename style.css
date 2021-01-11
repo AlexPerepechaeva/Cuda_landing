@@ -439,3 +439,29 @@ button:focus {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   outline: none;
 }
+.foot_div {
+  height: 70px;
+  background-color: #344b8e;
+}
+.footerul {
+  display: inline-block;
+  margin-left: 200px;
+  margin-top: 18px;
+}
+.footerli {
+  float: left;
+  margin-right: 100px;
+}
+.foot_sn {
+    font-family: "Titillium Web", Arial, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.foot_tw {
+  color: #31a9da;
+}
+.foot_sn:hover {
+  color: #05163E;
+    transition: 0.2s linear;
+}
